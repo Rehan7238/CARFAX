@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -34,3 +35,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+extension UIImageView {
+    func downloadImage(from url: URL) {
+        DispatchQueue.main.async() {
+            self.kf.setImage(with: url, placeholder: nil, options: nil)
+        }
+    }
+}

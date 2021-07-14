@@ -7,5 +7,6 @@ target 'Carfax_Assignment' do
 
   # Pods for Carfax_Assignment
   pod 'Alamofire'
+  pod 'Kingfisher', '~> 6.0'
 
 end

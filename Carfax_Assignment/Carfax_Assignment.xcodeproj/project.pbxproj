@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		5DBFAA9A269F8CA1008669A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DBFAA98269F8CA1008669A4 /* Main.storyboard */; };
 		5DBFAA9C269F8CA1008669A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DBFAA9B269F8CA1008669A4 /* Assets.xcassets */; };
 		5DBFAA9F269F8CA1008669A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DBFAA9D269F8CA1008669A4 /* LaunchScreen.storyboard */; };
+		5DBFAAA7269F932B008669A4 /* CarsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBFAAA6269F932B008669A4 /* CarsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5DBFAA9B269F8CA1008669A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DBFAA9E269F8CA1008669A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DBFAAA0269F8CA1008669A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DBFAAA6269F932B008669A4 /* CarsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsTableViewCell.swift; sourceTree = "<group>"; };
 		65583166440ABC6A796FE719 /* Pods-Carfax_Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carfax_Assignment.release.xcconfig"; path = "Target Support Files/Pods-Carfax_Assignment/Pods-Carfax_Assignment.release.xcconfig"; sourceTree = "<group>"; };
 		F08F8BFB2E0BC03BDA38E241 /* Pods_Carfax_Assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Carfax_Assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -48,7 +50,6 @@
 				33494309D3685799ABA6B585 /* Pods-Carfax_Assignment.debug.xcconfig */,
 				65583166440ABC6A796FE719 /* Pods-Carfax_Assignment.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -80,6 +81,7 @@
 				5DBFAA9B269F8CA1008669A4 /* Assets.xcassets */,
 				5DBFAA9D269F8CA1008669A4 /* LaunchScreen.storyboard */,
 				5DBFAAA0269F8CA1008669A4 /* Info.plist */,
+				5DBFAAA6269F932B008669A4 /* CarsTableViewCell.swift */,
 			);
 			path = Carfax_Assignment;
 			sourceTree = "<group>";
@@ -208,6 +210,7 @@
 			files = (
 				5DBFAA97269F8CA1008669A4 /* ViewController.swift in Sources */,
 				5DBFAA93269F8CA1008669A4 /* AppDelegate.swift in Sources */,
+				5DBFAAA7269F932B008669A4 /* CarsTableViewCell.swift in Sources */,
 				5DBFAA95269F8CA1008669A4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,7 +288,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -340,7 +343,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
